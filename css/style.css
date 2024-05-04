@@ -1,0 +1,163 @@
+body {
+    background-color: #fff4ea;
+  }
+
+
+.col {
+    background-color: #EA6013 ;
+}
+
+.line {
+    border-bottom: 3px solid #ff4d00;
+  }
+
+
+.embed-responsive{
+    width:100%;
+    height:100%;
+}
+
+
+.nav-item{
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20pt;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+#footer{
+    background-color: #EA6013;
+    padding-top:20px;
+}
+
+
+h1{
+    color: #FEE3C8;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25pt;
+    padding-left: 20px;
+}
+
+h2{
+    color:  #EA6013;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25pt;
+    padding-left: 20px;
+}
+
+h3{
+    color:  #EA6013;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 600;
+    font-size: 25pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+}
+
+
+h4{
+    color:  #EA6013;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 600;
+    font-size: 20pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+    padding-left: 15pt
+}
+
+h5{
+    color: #FEE3C8;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 600;
+    font-size: 20pt;
+    padding-left: 20px;
+}
+
+h6{
+    color: #FEE3C8;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15pt;
+    padding-left: 20px;
+}
+
+p {
+    color:  #db4d00;
+    font-family: "indivisible", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    font-size: 15pt;
+}
+
+a {
+    color: #db4d00;
+  }
+
+li{
+  color:  #EA6013;
+  font-family: "bc-mikser", sans-serif;
+  font-weight: 600;
+  font-size: 15pt;
+  padding-top: 3pt;
+  padding-bottom: 3pt;
+  padding-left: 15pt
+}
+
+
+/* content from w3 schools*/
+/* www.w3schools.com. (n.d.). Tryit Editor v3.6. [online] Available at: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity.  [Accessed 4 May 2024]. */
+
+.container {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 0.9;
+  }
+  
+  .text {
+    background-color: #db4d00;
+    color: white;
+    padding: 16px 32px;
+    font-family: "bc-mikser", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15pt;
+  }
+
+  /* end to content from w3 schools*/
+
+
+
